@@ -1,0 +1,13 @@
+<suite name = "New Customer Test">
+    <test name = "test chrome">
+        <parameter name = "browser" value = "chrome" />
+        <classes>
+            <class name = "testsuite.NewCustomerTest">
+                <methods>
+                    <include name = "TC00_LoginAndSelectNewCustomerMenu" />
+                    <include name = "TC09_VerifyCreateNewCustomerValid" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

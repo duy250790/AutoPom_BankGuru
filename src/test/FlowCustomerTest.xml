@@ -1,0 +1,9 @@
+<suite name = "Edit Customer Test">
+    <test name = "test chrome">
+        <parameter name = "browser" value = "chrome" />
+        <classes>
+            <class name = "testsuite.FlowCustomer">
+            </class>
+        </classes>
+    </test>
+</suite>
